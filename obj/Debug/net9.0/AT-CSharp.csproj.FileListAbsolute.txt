@@ -1,0 +1,14 @@
+C:\Users\jlbraga\RiderProjects\AT-CSharp\bin\Debug\net9.0\AT-CSharp.exe
+C:\Users\jlbraga\RiderProjects\AT-CSharp\bin\Debug\net9.0\AT-CSharp.deps.json
+C:\Users\jlbraga\RiderProjects\AT-CSharp\bin\Debug\net9.0\AT-CSharp.runtimeconfig.json
+C:\Users\jlbraga\RiderProjects\AT-CSharp\bin\Debug\net9.0\AT-CSharp.dll
+C:\Users\jlbraga\RiderProjects\AT-CSharp\bin\Debug\net9.0\AT-CSharp.pdb
+C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\AT-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\AT-CSharp.AssemblyInfoInputs.cache
+C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\AT-CSharp.AssemblyInfo.cs
+C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\AT-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\AT-CSharp.dll
+C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\refint\AT-CSharp.dll
+C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\AT-CSharp.pdb
+C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\AT-CSharp.genruntimeconfig.cache
+C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\ref\AT-CSharp.dll
