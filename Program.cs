@@ -59,7 +59,7 @@ class Program
     }
     
     // Exercicio 2
-    public static string Ex_2()
+    public static void Ex_2()
     {
         string nome;
         int deslocamento = 2;
@@ -84,7 +84,7 @@ class Program
             }
         }
 
-        return new string(resultado);
+        Console.WriteLine(new string(resultado));
     }
     
     // Exercicio 3
