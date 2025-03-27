@@ -12,3 +12,4 @@ C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\refint\AT-CSharp.dll
 C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\AT-CSharp.pdb
 C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\AT-CSharp.genruntimeconfig.cache
 C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\ref\AT-CSharp.dll
+C:\Users\jlbraga\RiderProjects\AT-CSharp\obj\Debug\net9.0\AT-CSharp.sourcelink.json

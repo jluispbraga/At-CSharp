@@ -467,7 +467,7 @@ class Program
                     {
                         var dados = linha.Split(',');
 
-                        if (dados.Length == 3)
+                        if (dados.Length > 0)
                         {
                             string nome = dados[0];
                             int quantidade = int.Parse(dados[1]);
@@ -587,37 +587,34 @@ class Program
     // Exercicio 11
     public static void Ex_11()
     {
-        static void Main()
+        int opcao;
+        do
         {
-            int opcao;
-            do
+            Console.Clear();
+            Console.WriteLine("=== Gerenciador de Contatos ===");
+            Console.WriteLine("1 - Adicionar novo contato");
+            Console.WriteLine("2 - Listar contatos cadastrados");
+            Console.WriteLine("3 - Sair");
+            Console.Write("Escolha uma opção: ");
+            opcao = int.Parse(Console.ReadLine());
+
+            switch (opcao)
             {
-                Console.Clear();
-                Console.WriteLine("=== Gerenciador de Contatos ===");
-                Console.WriteLine("1 - Adicionar novo contato");
-                Console.WriteLine("2 - Listar contatos cadastrados");
-                Console.WriteLine("3 - Sair");
-                Console.Write("Escolha uma opção: ");
-                opcao = int.Parse(Console.ReadLine());
+                case 1:
+                    AdicionarContato();
+                    break;
+                case 2:
+                    ListarContatos();
+                    break;
+                case 3:
+                    Console.WriteLine("Encerrando programa...");
+                    break;
+                default:
+                    Console.WriteLine("Opção inválida, tente novamente.");
+                    break;
+            }
 
-                switch (opcao)
-                {
-                    case 1:
-                        AdicionarContato();
-                        break;
-                    case 2:
-                        ListarContatos();
-                        break;
-                    case 3:
-                        Console.WriteLine("Encerrando programa...");
-                        break;
-                    default:
-                        Console.WriteLine("Opção inválida, tente novamente.");
-                        break;
-                }
-
-            } while (opcao != 3);
-        }
+        } while (opcao != 3);
 
         static void AdicionarContato()
         {
@@ -679,6 +676,7 @@ class Program
 
             Console.WriteLine("Pressione qualquer tecla para voltar ao menu...");
             Console.ReadKey();
+
         }
     }
     
